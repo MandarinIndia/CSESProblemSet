@@ -17,6 +17,7 @@ The CSES Problem Set is a popular collection of competitive programming problems
 
 The repository is organized into directories based on the categories of problems. Each directory contains solutions to the problems in that category. The structure is as follows:
 ![](image.png)
+    
     File Naming : Each file is named according to the problem title.
     File Format : Solutions are written in C++.
 
