@@ -7,23 +7,9 @@ template <typename A> istream& operator>> (istream& cin, vector<A> &x){for(int i
 typedef long long ll;
 
 void solve(){
-    int n , temp;
-    cin >> n;
-
-    vector<int> arr;
-
-    for(int i = 0 ; i < n ; i++){
-        cin >> temp;
-        auto it = upper_bound(arr.begin() , arr.end() , temp);
-
-        if(it == arr.end()){
-            arr.push_back(temp);
-        }else{
-            *it = temp;
-        }
-    }
-
-    cout << arr.size() << endl;
+    int n , k;
+    cin >> n >> k;
+    // Can't come up with any solution
 }
 
 signed main(){

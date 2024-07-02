@@ -7,23 +7,25 @@ template <typename A> istream& operator>> (istream& cin, vector<A> &x){for(int i
 typedef long long ll;
 
 void solve(){
-    int n , temp;
+    int n;
     cin >> n;
+    
+    queue<int> q;
+    bool flag = false;
 
-    vector<int> arr;
+    for(int i = 1 ; i <= n ; i++) q.push(i);
 
-    for(int i = 0 ; i < n ; i++){
-        cin >> temp;
-        auto it = upper_bound(arr.begin() , arr.end() , temp);
-
-        if(it == arr.end()){
-            arr.push_back(temp);
+    while(!q.empty()){
+        int x = q.front();
+        q.pop();
+        if(flag){
+            cout << x << " ";
         }else{
-            *it = temp;
+            q.push(x);
         }
+        flag = !flag;
     }
-
-    cout << arr.size() << endl;
+        
 }
 
 signed main(){
