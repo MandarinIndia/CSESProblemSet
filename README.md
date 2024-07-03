@@ -33,7 +33,7 @@ Contributions are welcome! If you have a better solution or an optimization, fee
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me at [your email address] or open an issue in this repository.
+If you have any questions or suggestions, feel free to reach out to me at my mail sanskarg345@gmail.com or open an issue in this repository.
 
 Happy coding!
 
